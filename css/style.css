@@ -26,6 +26,12 @@ h1{
 	margin-bottom: 20px;
 }
 
+.rotate{
+	-moz-transform:rotate(90deg);
+	-webkit-transform:rotate(90deg);
+	transform:rotate(90deg);
+}
+
 .title{
 	height: 40px;
 	background: #6bb170;
@@ -49,6 +55,8 @@ h1{
 .faq li.a{
 	background: #ddd;
 	display: none;
+	font-size: 80%;
+	font-family: Courier New
 }
 
 @media(max-width:800px){
